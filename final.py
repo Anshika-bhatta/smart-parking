@@ -1,11 +1,11 @@
 import pandas as pd
 
+
 # Load the data from a CSV file
-df = pd.read_csv('parking_lot_data.csv', parse_dates=['Time'])
+df = pd.read_csv('D:\\major project\\major project final defense\\Vehicle Data', parse_dates=['Time'])
 
 # Display the first few rows
 print(df.head())
-
 
 # Set 'Time' as the DataFrame index
 df.set_index('Time', inplace=True)
